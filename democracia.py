@@ -3,7 +3,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 dataset = pd.read_csv("C:\\Users\\f0fp1107\\Desktop\\democracia.csv")
-dataset = pd.DataFrame(dataset)
 
 # Filtrando dados do Brasil
 dataset = dataset[dataset['Entity']=="Brazil"]
